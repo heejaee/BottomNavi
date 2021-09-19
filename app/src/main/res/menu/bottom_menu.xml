@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/squad"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_person_24"
+        android:title="현 스쿼드"
+        ></item>
+
+    <item
+        android:id="@+id/legend"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_grade_24"
+        android:title="레전드"
+        ></item>
+
+    <item
+        android:id="@+id/vote"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_thumb_up_alt_24"
+        android:title="투표"
+        ></item>
+
+    <item
+        android:id="@+id/set"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_sports_soccer_24"
+        android:title="설정"
+        ></item>
+
+</menu>

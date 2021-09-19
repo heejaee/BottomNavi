@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginVertical="20dp">
+
+
+        <ImageView
+            android:id="@+id/tv_profile"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_margin="5dp"
+            android:src="@drawable/ic_launcher_background">
+
+        </ImageView>
+
+        <LinearLayout
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="15dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="선수이름"
+                android:layout_margin="5dp"></TextView>
+
+            <TextView
+                android:id="@+id/tv_age"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="나이"
+                android:layout_margin="5dp"></TextView>
+
+            <TextView
+                android:id="@+id/tv_country"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="국적"
+                android:layout_margin="5dp"></TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_apperances"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="출장"
+                android:layout_margin="5dp"></TextView>
+
+            <TextView
+                android:id="@+id/tv_total_goal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="총 득점"
+                android:layout_margin="5dp"></TextView>
+
+
+            <TextView
+                android:id="@+id/tv_position"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="포지션"
+                android:layout_margin="5dp"></TextView>
+
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#B40000"/>
+</LinearLayout>
